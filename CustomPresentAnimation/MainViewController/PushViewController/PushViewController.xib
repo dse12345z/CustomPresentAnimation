@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PushViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="ZYL-MZ-RD6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XtN-ew-wrx">
+                    <rect key="frame" x="83" y="269" width="155" height="30"/>
+                    <color key="backgroundColor" red="0.98955798149108887" green="0.47361153364181519" blue="0.79277002811431885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="155" id="O7E-dK-Zvx"/>
+                        <constraint firstAttribute="height" constant="30" id="Ym7-zn-zwJ"/>
+                    </constraints>
+                    <state key="normal" title="dismiss"/>
+                    <connections>
+                        <action selector="dismissAction:" destination="-1" eventType="touchUpInside" id="16Q-8N-GbN"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XtN-ew-wrx" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ReK-TX-ff0"/>
+                <constraint firstItem="XtN-ew-wrx" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="pMH-yf-a9b"/>
+            </constraints>
+            <point key="canvasLocation" x="287" y="436"/>
+        </view>
+    </objects>
+</document>

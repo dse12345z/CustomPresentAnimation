@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustomViewController.h"
-@interface PushViewController : CustomViewController
+
+@interface PushViewController : UIViewController
 
 @end

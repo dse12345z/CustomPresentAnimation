@@ -8,16 +8,7 @@
 
 #import "PushViewController.h"
 
-@interface PushViewController ()
-
-@end
-
 @implementation PushViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
 
 - (IBAction)dismissAction:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];

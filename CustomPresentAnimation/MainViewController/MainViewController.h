@@ -6,8 +6,8 @@
 //  Copyright © 2016年 AllenShiu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "CustomViewController.h"
-@interface MainViewController : CustomViewController
+#import "TransitionViewController.h"
+
+@interface MainViewController : TransitionViewController
 
 @end
